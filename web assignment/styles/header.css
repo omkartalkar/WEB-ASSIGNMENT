@@ -1,0 +1,43 @@
+
+header{
+    height: 18vh;
+    background: var(--primary-color);
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+#navlinks{
+    display: flex;
+    list-style: none;
+    padding: 2em;
+
+}
+#navlinks li{
+    margin-left: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-size: 1em;
+    width: auto;
+}
+
+#navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+#navlinks li .active{
+    color: var(--secondary-color);
+}
+#navlinks li img{
+   height: 8vh;
+}
+.social i{
+    font-size: 1.4em;
+    padding: .8em;
+    color: white;
+}

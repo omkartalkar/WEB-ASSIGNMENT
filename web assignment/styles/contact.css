@@ -1,0 +1,83 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./root.css";
+
+
+main{
+    height: auto;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 8em;
+    justify-content: space-between;
+
+}
+
+.form{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: .8em;
+    align-items: center;
+    justify-content: center;
+}
+.form textarea{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    height: 10em;
+    padding: 1.2em;
+    border: 1.4px solid white;
+    color: white;
+}
+.form input{
+    background-color: black;
+    border: 1.4px solid white;
+    padding: 1.2em;
+    width: 20vw;
+    justify-content: center;
+    color: white;
+}
+.form input[type="button"]{
+    background-color: var(--accent-color);
+    grid-row: 4/4;
+    border: none;
+    width: 8em;
+    height: 2.5em;
+    color: white;
+    padding: .5em;
+    font-size: 1.2em;
+}
+.text-content{
+    text-align: left;
+    margin: 0 3em;
+    color: white !important;
+    width: 40%;
+}
+.text-content h1{
+    font-family: var(--primary-font);
+    color: #F78E00;
+    font-size: 4em;
+    font-weight: 800;
+    line-height:1.5em;
+}
+.text-content p{
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:400px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:400px;
+}
+.gmap_iframe {height:400px !important;}

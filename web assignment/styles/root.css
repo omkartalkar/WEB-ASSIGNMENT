@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Press+Start+2P&family=Rubik:wght@300;400;500;600;700&display=swap');
+:root {
+    --primary-color: #010101;
+    --secondary-color: #e8bda1;
+    --primary-font:'Montserrat', sans-serif;
+    --secondary-font:'Rubik', sans-serif;
+    --heading-font:'Roboto Slab', serif;
+    --accent-color: #FF9045;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+html::-webkit-scrollbar{
+  width: 0.5vw;
+}
+html::-webkit-scrollbar-thumb{
+  background-color:#ffe9da;
+  border-radius: 1em;
+  transition: background 3s ease-in 2s;
+}
+html::-webkit-scrollbar-thumb:hover{
+  background:#ffb788;
+
+}
+html::-webkit-scrollbar-track{
+  background-color: var(--primary-color);
+}

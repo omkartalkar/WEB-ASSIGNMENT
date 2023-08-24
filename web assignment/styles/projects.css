@@ -1,0 +1,108 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./root.css";
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+main{
+    margin: 0 15em  2em;
+    height: auto;
+}
+.cards-wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+}
+.cards{
+    width: 100%;
+    height: 12em;
+    border-radius: .8em;
+}
+
+#card-3{
+    height: 24em;
+    grid-column: 3/3;
+    grid-row: 1/3;
+    background-image: url('../images/3x4_1.jpg');
+    background-size: 330px 400px;
+    background-repeat: initial;
+}
+#card-3 .buttons{
+    position: relative;
+    top: 270px;
+}
+#card-4{
+    height: 24em;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-image: url('../images/3x4_2.jpg');
+    background-size: 330px 400px;
+}
+#card-4 .buttons{
+    position: relative;
+    top: 270px;
+}
+#card-6{
+    height: 12em;
+    grid-column: 1/3;
+    grid-row: 4/4;
+    background-image: url('../images/6x2_1.jpg');
+    background-size: 700px 200px;
+}
+
+#card-8{
+    height: 24em;
+    grid-column: 3/3;
+    grid-row: 3/5;
+    background-image: url('../images/3x4_3.jpg');
+    background-size: 330px 400px;
+}
+#card-8 .buttons{
+    position: relative;
+    top: 270px;
+}
+#card-1{
+    background-image: url('../images/3x2_1.jpg');
+    background-size: 330px 200px;
+}
+#card-2{
+    background-image: url('../images/3x2_2.jpg');
+    background-size: 330px 200px;
+}
+#card-5{
+    background-image: url('../images/3x2_3.jpg');
+    background-size: 330px 200px;
+}
+#card-7{
+    background-image: url('../images/3x2_4.jpg');
+    background-size: 330px 200px;
+}
+.card-info{
+    margin: 1em;
+}
+.buttons{
+    position: relative;
+    top: 80px;
+}
+.card-info, .buttons{
+    background: transparent;
+    
+}
+.card-info h3{
+    display: inline; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    font-size: 2em;
+}
+.buttons button{
+    display: inline-block; 
+    background: white;
+    font-size: 1em;
+    width: 6em;
+    color: black;
+    padding: .5em;
+    border-radius: 1.8em;
+    border: 2px solid whitesmoke;
+}

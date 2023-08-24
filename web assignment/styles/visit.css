@@ -1,0 +1,28 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./root.css";
+
+main{
+    margin: 1.4em 6em;
+}
+.map{
+    display: flex;
+}
+.gmap_iframe{
+    position:relative;
+    text-align:right;
+    width:600px;
+    height:400px;
+}
+.text{
+    position:relative;
+    text-align:left;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-family: var(--primary-font);
+    width: 40%;
+    margin-left: 1.5em;
+}
+.text i, span{
+    color: white;
+}
